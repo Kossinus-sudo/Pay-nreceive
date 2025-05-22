@@ -1,13 +1,11 @@
-// Configuration Firebase (remplace par tes vrais identifiants plus tard)
 const firebaseConfig = {
-  apiKey: "TON_API_KEY",
-  authDomain: "TON_PROJET.firebaseapp.com",
-  projectId: "TON_PROJET",
-  storageBucket: "TON_PROJET.appspot.com",
-  messagingSenderId: "TON_ID_MESSAGERIE",
-  appId: "TON_APP_ID"
-};
-
+apiKey: "AIzaSyDBLxpmz1pCvix2l0mW-jAgMDea3E5muAI",
+  authDomain: "paynreceive-b7ee9.firebaseapp.com",
+  projectId: "paynreceive-b7ee9",
+  storageBucket: "paynreceive-b7ee9.firebasestorage.app",
+  messagingSenderId: "931007110605",
+  appId: "1:931007110605:web:45b2a88445954acc263884",
+  };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
